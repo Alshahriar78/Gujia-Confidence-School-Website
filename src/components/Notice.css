@@ -1,0 +1,40 @@
+.notice-bar {
+  overflow: hidden;
+  position: relative;
+}
+
+.notice-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.notice-label {
+  flex-shrink: 0;
+  z-index: 2;
+  background: #ffc107; /* match bg-warning color */
+  padding-right: 8px;
+}
+
+.notice-marquee {
+  overflow: hidden;
+  flex-grow: 1;
+  position: relative;
+  height: 24px;
+}
+
+.notice-text {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scrollText 20s linear infinite;
+  position: absolute;
+  left: 100%;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
