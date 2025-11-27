@@ -1,16 +1,83 @@
-# React + Vite
+# 🎓 Gujia Confidence School – Static Website (React + Bootstrap 5)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and fast school website built using **React** and **Bootstrap 5**.  
+This project showcases the school’s identity with clean UI sections for academic programs, notices, events, teachers, gallery, and contact information. Designed with reusable components and optimized performance for smooth browsing across all devices.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+### ⚛️ Built with React
+- Component-based architecture  
+- Reusable UI components (Navbar, Footer, Cards, Sections)  
+- Organized folder structure for scalability  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🎨 Bootstrap 5 UI
+- Modern and clean design  
+- Responsive grid system  
+- Prebuilt components like Carousel, Cards, Forms, Modals  
 
-## Expanding the ESLint configuration
+### 📱 Fully Responsive Layout
+- Works seamlessly on mobile, tablet, and desktop  
+- Bootstrap utilities for spacing, alignment & layout  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🏫 School Information
+- About School  
+- Mission & Vision  
+- Academic Programs  
+- History & Overview  
+
+### 📰 Notices & Events
+- Notice board section  
+- Upcoming events display  
+
+### 👨‍🏫 Teachers Section
+- Teacher list with photos, subjects, and roles  
+
+### 🖼 Photo Gallery
+- Responsive gallery grid  
+- Optional modal/lightbox preview  
+
+### 📞 Contact & Location
+- Contact form  
+- Google Maps embedded location  
+- School phone, email & address  
+
+### ⚡ Additional Highlights
+- Smooth navigation with React Router  
+- SEO-friendly structure  
+- Fast performance with optimized static React build  
+- Clean and maintainable code  
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:**  
+- React  
+- Bootstrap 5  
+- React Router  
+- CSS Modules / Custom CSS  
+- JSX Components  
+
+**Tools:**  
+- VS Code  
+- Git & GitHub  
+
+---
+
+## 📦 Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/gujia-confidence-school-react.git
+
+# Enter the project folder
+cd gujia-confidence-school-react
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+
